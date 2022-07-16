@@ -1,0 +1,151 @@
+.price__title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+  text-align: center;
+}
+
+.price__title-mini{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #22343D;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.price__list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.price__item{
+  min-width: 323px;
+  height: 456px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px -7px;
+  text-align: center;
+}
+
+.price__item:nth-child(2n){
+  background-color: #02897A;
+  color: #fff;
+  box-shadow: 0px 0px 15px -7px #000;
+  text-align: center;
+}
+
+.price__level{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343D;
+}
+
+.price__level-center{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.price__description{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #22343D;
+}
+
+.price__description-center{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.price__money{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #02897A;
+}
+
+.price__money-center{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.price__numer{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  text-align: center;
+  color: #02897A;
+}
+
+.price__numer-center{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.price__proposal{
+  font-family: "Inter", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.price__button{
+  font-family: "Montserrat", "sans-serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  display: inline-block;
+  background-color: #02897A;
+  border: none;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+}
+
+.price__button-center{
+  font-family: "Montserrat", "sans-serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #02897A;
+  display: inline-block;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+}
+
+@media screen and (max-width:1050px) {
+  .price__list{
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+}
